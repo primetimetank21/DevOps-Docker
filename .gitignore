@@ -5,5 +5,5 @@
 __*
 
 # Exclusions to the above rules
-!.gitignore
+!.git*
 !__init__.py
