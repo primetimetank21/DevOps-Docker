@@ -1,0 +1,8 @@
+services:
+  backend:
+    image: python-http-server
+    ports:
+      - "4000:8000"
+  
+  frontend:
+    image: python-hello
