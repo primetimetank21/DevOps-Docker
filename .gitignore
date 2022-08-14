@@ -1,0 +1,9 @@
+# Property files
+.*
+
+# Dunder files
+__*
+
+# Exclusions to the above rules
+!.gitignore
+!__init__.py
