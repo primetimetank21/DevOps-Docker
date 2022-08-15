@@ -1,7 +1,8 @@
 #variables
 dependencies := install format lint test
 pip := python -m pip
-lint_files:= hello.py
+# lint_files:= hello.py main.py
+lint_files:= *.py
 lint_dirs:= name_lib
 
 #steps

@@ -1,8 +1,12 @@
+version: "3.9"
 services:
-  backend:
-    image: python-http-server
+  web:
+    build: .
     ports:
-      - "4000:8000"
-  
-  frontend:
-    image: python-hello
+      - "8000:5000"
+    volumes:
+      - .:/code
+    environment:
+      FLASK_ENV: development
+  redis:
+    image: "redis:alpine"
