@@ -1,6 +1,0 @@
-black
-pylint
-pytest
-mock
-flask
-redis
